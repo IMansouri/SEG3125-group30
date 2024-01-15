@@ -1,0 +1,22 @@
+.p1{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;  
+}
+
+label{
+    margin-right: 30px;
+}
+
+.question{
+    border-style: double;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.Submit{
+  margin-left: 45%;
+}

@@ -1,27 +1,53 @@
 <html>
 
-<head>
-    <link href="styles.css">
-</head>
+  <head>
+      <link href="styles.css">
+  </head>
 
-<h1>Hello!</h1>
-<div class = "listQuestion">
-    <label for="language" class="p1">What colour would you add on this website?</label>
-    <select name="language" id="language">
-        <option value="Pick color" selected>Pick Color</option>
-        <option value="Red">Red</option>
-        <option value="Orange">Orange</option>
-        <option value="Yellow">Yellow</option>
-        <option value="Green">Green</option>
-        <option value="Blue">Blue</option>
-        <option value="Purple">Purple</option>
-        <option value="Pink">Pink</option>
-        <option value="Brown">Brown</option>
-        <option value="Gray">Gray</option>
+  <div class = "question">
+      <label for="language" class="p1">What colour would you add on this website?</label>
+      <select name="language" id="language">
+          <option value="Pick color" selected>Pick Color</option>
+          <option value="Red">Red</option>
+          <option value="Orange">Orange</option>
+          <option value="Yellow">Yellow</option>
+          <option value="Green">Green</option>
+          <option value="Blue">Blue</option>
+          <option value="Purple">Purple</option>
+          <option value="Pink">Pink</option>
+          <option value="Brown">Brown</option>
+          <option value="Gray">Gray</option>
+      </select>
+  </div>
+
+  <div class="question">
+    <p class="p1">Which device did you first click "<i>Learn more</i>" for?</p>
+    <select id="appleHomePageServices">
+        <option value="iPhone15pro">iPhone 15 Pro</option>
+        <option value="iPhone15">iPhone 15</option>
+        <option value="iPad">iPad</option>
+        <option value="appleWatch">Apple Watch</option>
+        <option value="appleWatchS9">Apple Watch Series 9</option>
+        <option value="MacBookPro">MacBook Pro</option>
+        <option value="AirPodsPro">AirPods Pro</option>
+        <option value="appleFitness">Apple Fitness+</option>
+        <option value="AirPodsPro">AirPods Pro</option>
+        <option value="noDevice">Apple Watch</option>
     </select>
-</div>
-<br>
-<div class = "Submit">
+  </div>
+  
+  <div class="question">
+    <p class="p1">Is it more convinient to purchase products from the website or stores?</p>
+    <input type="radio" name="purchaseLocation" id="convinienceWebsite" value="Website">
+    <label for="convinienceWebsite" class="p1">Website</label>
+    <input type="radio" name="purchaseLocation" id="convinienceStore" value="Store">
+    <label for="convinienceStore" class="p1">Store</label>
+    <input type="radio" name="purchaseLocation" id="convinienceNoPref" value="No preference">
+    <label for="convinienceNoPref" class="p1">No preference</label>
+  </div>
+
+  <div class = "Submit">
     <input type="submit">
-</div>
+  </div>
+
 </html>
