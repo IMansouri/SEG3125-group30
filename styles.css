@@ -1,10 +1,18 @@
-.p1{
-    font-family: Verdana, sans-serif;
-    font-size: 16px;  
+title{
+    display: block;
+    font-size: 40px;
+    font-family: Helvetica, sans-sherif;
+    margin-left: 25%;
+    margin-bottom: 20px;
 }
 
 label{
     margin-right: 30px;
+}
+
+.p1{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;  
 }
 
 .question{
@@ -18,5 +26,5 @@ label{
 }
 
 .Submit{
-  margin-left: 45%;
+    margin-left: 45%;
 }
