@@ -1,15 +1,32 @@
 <html>
 
 <head>
-  <link href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 
 <body>
   <title>Apple Site Survey</title>
-  <a href = "www.apple.com">Apple Store</a>
-  <a href = "www.apple.com"><img src = "applelogo.png" alt= "Apple Logo" style="width:42px;height:42px;"/></a>
+  <div class="AppleLogoAndLink">
+      <a href = "www.apple.com">Apple Store</a>
+      <a href = "www.apple.com"><img src = "Apple-logo.png" alt= "Apple Logo" style="width:42px;height:42px;"/></a>
+  </div>
+
+
+  <div class="scroll-container">
+      <img src="Apple Pictures/iPhone Pro.png" alt="iPhone Pro">
+      <img src="Apple Pictures/iPhone.png" alt="iPhone Pro">
+      <img src="Apple Pictures/iPad.png" alt="iPhone Pro">
+      <img src="Apple Pictures/Apple Watch SE.png" alt="iPhone Pro">
+      <img src="Apple Pictures/Apple Watch Series 9.png" alt="iPhone Pro">
+      <img src="Apple Pictures/MacBook Pro.png" alt="iPhone Pro">
+      <img src="Apple Pictures/AirPods Pro.png" alt="iPhone Pro">
+      <img src="Apple Pictures/Fitness+.png" alt="iPhone Pro">
+  </div>
+
+
   <div class = "question">
-    <p class="p1">How likely are you to return to this website after your browsing experience?</p>
+    <p class="p1">How likely are you to rexturn to this website after your browsing experience?</p>
     <input type = "range" id= "Scale"  min = "1" max= "10"/>
     <label for="Scale" class="p1">Unlikely to Definitely</label>
   </div>
@@ -36,13 +53,11 @@
         <option value="iPhone15pro">iPhone 15 Pro</option>
         <option value="iPhone15">iPhone 15</option>
         <option value="iPad">iPad</option>
-        <option value="appleWatch">Apple Watch</option>
+        <option value="appleWatch">Apple Watch SE</option>
         <option value="appleWatchS9">Apple Watch Series 9</option>
         <option value="MacBookPro">MacBook Pro</option>
         <option value="AirPodsPro">AirPods Pro</option>
         <option value="appleFitness">Apple Fitness+</option>
-        <option value="AirPodsPro">AirPods Pro</option>
-        <option value="noDevice">Apple Watch</option>
     </select>
   </div>
   
