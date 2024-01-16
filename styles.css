@@ -1,29 +1,35 @@
+body {
+    background: linear-gradient(141deg, #000000 0%, #3a3a3a 51%, #4e4e4e 75%);
+}
+
 title{
     display: block;
     font-size: 40px;
     font-family: Helvetica, sans-sherif;
+    color: #eeeeee;
     margin-bottom: 20px;
     text-align: center;
 }
 
 label{
     margin-right: 30px;
+    color: #eeeeee;
 }
 
-.AppleLogoAndLink {
+/* .AppleLogoAndLink {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
   background-color: black;
-}
+} */
 
-.AppleLogoAndLink a {
+/* .AppleLogoAndLink a {
   text-decoration: none;
   color: white;
-}
+} */
 
-.AppleLogoAndLink img {
+title img {
   width: 50px;
   height: auto;
   margin-right: 10px;
@@ -32,12 +38,7 @@ label{
 .p1{
     font-family: Verdana, sans-serif;
     font-size: 16px;  
-}
-
-.Apple Logo and Link{
-    text-align: center;
-
-
+    color: #eeeeee;
 }
 
 .question{
