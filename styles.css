@@ -61,6 +61,12 @@ label{
     color: #c9c8c8;
 }
 
+.p3{
+    font-family: Verdana, sans-serif;
+    font-size: 20px;  
+    color: #eeeeee;
+}
+
 .question{
     border-style: double;
     margin-bottom: 20px;
@@ -76,7 +82,7 @@ label{
 }
 
 div.scroll-container {
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0);
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
