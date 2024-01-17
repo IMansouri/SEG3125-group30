@@ -11,6 +11,12 @@ title{
     text-align: center;
 }
 
+.title-box{
+    display: grid;
+    grid-template-columns: 2;
+    align-items: center;
+}
+
 label{
     margin-right: 30px;
     color: #eeeeee;
