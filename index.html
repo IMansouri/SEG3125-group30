@@ -12,7 +12,7 @@
   <br>
   <p class="p2" style="text-align: right;">Visit the <a href = "https://www.apple.com">Apple Store</a> and share us your experience.</p>
 
-  <!-- <div class="scroll-container">
+  <div class="scroll-container">
       <img src="Apple Pictures/iPhone Pro.png" alt="iPhone Pro">
       <img src="Apple Pictures/iPhone.png" alt="iPhone Pro">
       <img src="Apple Pictures/iPad.png" alt="iPhone Pro">
@@ -21,32 +21,6 @@
       <img src="Apple Pictures/MacBook Pro.png" alt="iPhone Pro">
       <img src="Apple Pictures/AirPods Pro.png" alt="iPhone Pro">
       <img src="Apple Pictures/Fitness+.png" alt="iPhone Pro">
-  </div> -->
-
-  <div class="slideshow">
-    <div class="photo fade">
-      <img src="Apple Pictures/AppleWeb1.png" style="width:100%">
-    </div>
-    <div class="photo fade">
-      <img src="Apple Pictures/AppleWeb2.png" style="width:100%">
-    </div>
-    <div class="photo fade">
-      <img src="Apple Pictures/AppleWeb3.png" style="width:100%">
-    </div>
-    <div class="photo fade">
-      <img src="Apple Pictures/AppleWeb4.png" style="width:100%">
-    </div>
-    <div class="photo fade">
-      <img src="Apple Pictures/AppleWeb5.png" style="width:100%">
-    </div>
-    <div class="photo fade">
-      <img src="Apple Pictures/AppleWeb6.png" style="width:100%">
-    </div>
-    <div class="photo fade">
-      <img src="Apple Pictures/AppleWeb7.png" style="width:100%">
-    </div>
-    <a class="prev" onclick="photoInc(-1)">❮</a>
-    <a class="next" onclick="photoInc(1)">❯</a>  
   </div>
 
   <div class = "question">
@@ -100,30 +74,5 @@
   </div>
 
   <p class="p1" style="font-style: italic">Website designed by</p>
-
-  <script>
-    let photoIndex = 0;
-    showImage(photoIndex);
-    
-    function photoInc(n) {
-      showImage(photoIndex += n);
-    }
-    
-    function showImage(n) {
-      let i;
-      let photos = document.getElementsByClassName("photo");
-      if (n > photos.length){
-        photoIndex = 1
-      }    
-      if (n < 1){
-        photoIndex = photos.length
-      }
-      for (i = 0; i < photos.length; i++) {
-        photos[i].style.display = "none";  
-      }
-      photos[photoIndex].style.display = "block";
-      console.log(photoIndex);
-    }
-  </script>
 </body>
 </html>
