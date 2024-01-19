@@ -9,6 +9,8 @@
     <a class="logolink" href = "https://www.apple.com"><img src = "Apple-logo.png" alt= "Apple Logo" style="width:80px;height:80px;"/></a>
     <title>Survey</title>
   </div>
+  <br>
+  <br>
   <p class="p2" style="text-align: center;">Welcome to the Apple Survey.</p>
   <br>
   <br>
@@ -32,49 +34,51 @@
   </div>
 
   <div class = "question">
-      <p>
-          <label for="language" class="p1">What colour would you add on this website?</label>
-      </p>
-      <select name="language" id="language">
-          <option value="Pick color" selected>Pick Color</option>
-          <option value="Red">Red</option>
-          <option value="Orange">Orange</option>
-          <option value="Yellow">Yellow</option>
-          <option value="Green">Green</option>
-          <option value="Blue">Blue</option>
-          <option value="Purple">Purple</option>
-          <option value="Pink">Pink</option>
-          <option value="Brown">Brown</option>
-          <option value="Gray">Gray</option>
-      </select>
+    <p>
+      <label for="language" class="p1">What colour would you add on this website?</label>
+    </p>
+    <select name="language" id="language" class="dropdown">
+        <option value="Pick color" selected>Pick Color</option>
+        <option value="Red">Red</option>
+        <option value="Orange">Orange</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+        <option value="Purple">Purple</option>
+        <option value="Pink">Pink</option>
+        <option value="Brown">Brown</option>
+        <option value="Gray">Gray</option>
+    </select>
   </div>
 
   <div class="question">
     <p class="p1">Which device did you first click? "<i>Learn more</i>" for?</p>
-    <select id="appleHomePageServices">
-        <option value="iPhone15pro">iPhone 15 Pro</option>
-        <option value="iPhone15">iPhone 15</option>
-        <option value="iPad">iPad</option>
-        <option value="appleWatch">Apple Watch SE</option>
-        <option value="appleWatchS9">Apple Watch Series 9</option>
-        <option value="MacBookPro">MacBook Pro</option>
-        <option value="AirPodsPro">AirPods Pro</option>
-        <option value="appleFitness">Apple Fitness+</option>
+    <select id="appleHomePageServices" class="dropdown">
+      <option value="initVal" selected>Choose a product</option>
+      <option value="iPhone15pro">iPhone 15 Pro</option>
+      <option value="iPhone15">iPhone 15</option>
+      <option value="iPad">iPad</option>
+      <option value="appleWatch">Apple Watch SE</option>
+      <option value="appleWatchS9">Apple Watch Series 9</option>
+      <option value="MacBookPro">MacBook Pro</option>
+      <option value="AirPodsPro">AirPods Pro</option>
+      <option value="appleFitness">Apple Fitness+</option>
+      <option value="noProduct">None</option>
     </select>
   </div>
   
   <div class="question">
     <p class="p1">Is it more convenient to purchase products from the website or stores?</p>
     <input type="radio" name="purchaseLocation" id="convinienceWebsite" value="Website">
-    <label for="convinienceWebsite" class="p1">Website</label>
+    <label for="convinienceWebsite" class="p4">Website</label>
     <input type="radio" name="purchaseLocation" id="convinienceStore" value="Store">
-    <label for="convinienceStore" class="p1">Store</label>
+    <label for="convinienceStore" class="p4">Store</label>
     <input type="radio" name="purchaseLocation" id="convinienceNoPref" value="No preference">
-    <label for="convinienceNoPref" class="p1">No preference</label>
+    <label for="convinienceNoPref" class="p4">No preference</label>  
   </div>
 
   <div class = "Submit">
-    <input type="submit">
+    <input type="submit" class="SubmitButton">
   </div>
 
   <p class="p1" style="font-style: italic">Website designed by ____, ________, _______ and Ines Mansouri</p>
