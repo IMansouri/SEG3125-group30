@@ -87,7 +87,8 @@ label{
 
 .SubmitButton{
     background-color: rgba(0, 0, 0, 0);
-    border: none;
+    border-style: solid;
+    border-color: white;
     color: white;
     font-family: Verdana, sans-serif;
     font-size: 26px; 
@@ -95,10 +96,13 @@ label{
     cursor: pointer;
     margin-top: 80px;
     margin-bottom: 40px;
+    padding: 16px 16px;
 }
 
 .SubmitButton:hover{
-    color:#c9c8c8;
+    color: rgb(22, 22, 22);
+    background-color: rgb(234, 234, 234);
+    border-color: black;
 }
 
 div.scroll-container {
