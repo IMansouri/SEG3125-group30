@@ -11,8 +11,16 @@
   <div class = "question">
     <p class="p1">How likely are you to return to this website after your browsing experience?</p>
     <input type = "range" id= "Scale"  min = "1" max= "10"/>
-    <label for="Scale" class="p1">Unlikely to Definitely</label>
+    <label for="Scale" class="p1">Value: <output id="value"></output></label>
   </div>
+  <script>
+    const value = document.querySelector("#value");
+    const input = document.querySelector("#Scale");
+    value.textContent = input.value;
+    input.addEventListener("input", (event) => {
+    value.textContent = event.target.value;
+    });
+  </script>
 
   <div class = "question">
       <label for="language" class="p1">What colour would you add on this website?</label>
