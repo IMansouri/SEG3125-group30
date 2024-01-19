@@ -117,11 +117,16 @@ div.scroll-container img {
     background-color: #4caf4f00;
     padding: 16px 16px;
     font-family: Verdana, sans-serif;
+    color: white;
     font-size: 16px;  
     border: none;
     cursor: pointer;
     text-align: left;
     width: 240px;
+}
+
+option{
+    color: black;
 }
 
 input[type="radio"]{
