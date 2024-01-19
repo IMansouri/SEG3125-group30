@@ -8,28 +8,17 @@ title{
     font-size: 80px;
     font-family: Helvetica, sans-sherif;
     color: #eeeeee;
-    margin-bottom: 20px;
-    margin-left: 20px
 }
 
-.title-box{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: end;
-    width: fit-content;
-    margin-left: 22vw;
+.logolink{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 label{
     margin-right: 30px;
     color: #eeeeee;
-}
-
-.logolink{
-    display: flex;
-    float: center;
-    width: 50px;
-    height: 50px;
 }
 
 .AppleLogoAndLink {

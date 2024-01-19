@@ -1,62 +1,62 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-  <div class="title-box">
-    <a class="logolink" href = "https://www.apple.com"><img src = "Apple-logo.png" alt= "Apple Logo" style="width:80px;height:80px;"/></a>
-    <title>Survey</title>
-  </div>
-  <br>
-  <br>
-  <p class="p2" style="text-align: center;">Welcome to the Apple Survey.</p>
-  <br>
-  <br>
-  <p class="p3">Visit the <a href = "https://www.apple.com">Apple Store</a> and share us your experience.</p>
+<div class="title-box">
+    <a class="logolink" href = "https://www.apple.com">
+        <img src = "Apple Pictures/AppleSurvey.png" width="200" height="auto" alt= "Apple Logo"/></a>
+</div>
+<br>
+<br>
+<p class="p2" style="text-align: center;">Welcome to the Apple Survey.</p>
+<br>
+<br>
+<p class="p3">Visit the <a href = "https://www.apple.com">Apple Store</a> and share us your experience.</p>
 
-  <div class="scroll-container">
-      <a href="https://www.apple.com/ca/iphone-15-pro/">
-          <img src="Apple Pictures/iPhone Pro.png" alt="iPhone Pro">
-      </a>
+<div class="scroll-container">
+    <a href="https://www.apple.com/ca/iphone-15-pro/">
+        <img src="Apple Pictures/iPhone Pro.png" alt="iPhone Pro">
+    </a>
 
-      <a href="https://www.apple.com/ca/iphone/">
-          <img src="Apple Pictures/iPhone.png" alt="iPhone">
-      </a>
+    <a href="https://www.apple.com/ca/iphone/">
+        <img src="Apple Pictures/iPhone.png" alt="iPhone">
+    </a>
 
-      <a href="https://www.apple.com/ca/ipad/">
-          <img src="Apple Pictures/iPad.png" alt="iPad">
-      </a>
+    <a href="https://www.apple.com/ca/ipad/">
+        <img src="Apple Pictures/iPad.png" alt="iPad">
+    </a>
 
-      <a href="https://www.apple.com/ca/watch/">
-          <img src="Apple Pictures/Apple Watch SE.png" alt="Apple Watch SE">
-      </a>
+    <a href="https://www.apple.com/ca/watch/">
+        <img src="Apple Pictures/Apple Watch SE.png" alt="Apple Watch SE">
+    </a>
 
-      <a href="https://www.apple.com/ca/apple-watch-series-9/">
-          <img src="Apple Pictures/Apple Watch Series 9.png" alt="Apple Watch Series 9">
-      </a>
+    <a href="https://www.apple.com/ca/apple-watch-series-9/">
+        <img src="Apple Pictures/Apple Watch Series 9.png" alt="Apple Watch Series 9">
+    </a>
 
-      <a href="https://www.apple.com/ca/macbook-pro/">
-          <img src="Apple Pictures/MacBook Pro.png" alt="MacBook Pro">
-      </a>
+    <a href="https://www.apple.com/ca/macbook-pro/">
+        <img src="Apple Pictures/MacBook Pro.png" alt="MacBook Pro">
+    </a>
 
-      <a href="https://www.apple.com/ca/airpods/">
-          <img src="Apple Pictures/AirPods Pro.png" alt="AirPods Pro">
-      </a>
+    <a href="https://www.apple.com/ca/airpods/">
+        <img src="Apple Pictures/AirPods Pro.png" alt="AirPods Pro">
+    </a>
 
-      <a href="https://www.apple.com/ca/apple-fitness-plus/whats-new/">
-          <img src="Apple Pictures/Fitness+.png" alt="Fitness+">
-      </a>
-  </div>
+    <a href="https://www.apple.com/ca/apple-fitness-plus/whats-new/">
+        <img src="Apple Pictures/Fitness+.png" alt="Fitness+">
+    </a>
+</div>
 
 
-  <div class = "question">
+<div class = "question">
     <p class="p1">How likely are you, on a scale of 1 to 10, to return to this website after your browsing experience?</p>
     <input type = "range" id= "Scale"  min = "1" max= "10"/>
     <label for="Scale" class="p1">Value: <output id="value"></output></label>
-  </div>
-  <script>
+</div>
+<script>
     const value = document.querySelector("#value");
     const input = document.querySelector("#Scale");
     value.textContent = input.value;
@@ -65,66 +65,66 @@
     });
   </script>
 
-  <div class = "question">
-      <p>
-          <label for="language" class="p1">What colours would you add on this website?</label>
-      </p>
-      <select name="language[]" id="language" multiple size="10">
-          <option value="Pick color" selected>Pick Color</option>
-          <option value="Red">Red</option>
-          <option value="Orange">Orange</option>
-          <option value="Yellow">Yellow</option>
-          <option value="Green">Green</option>
-          <option value="Blue">Blue</option>
-          <option value="Purple">Purple</option>
-          <option value="Pink">Pink</option>
-          <option value="Brown">Brown</option>
-          <option value="Gray">Gray</option>
-      </select>
-  </div>
+<div class = "question">
+    <p>
+        <label for="language" class="p1">What colours would you add on this website?</label>
+    </p>
+    <select name="language[]" id="language" multiple size="10">
+        <option value="Pick color" selected>Pick Color</option>
+        <option value="Red">Red</option>
+        <option value="Orange">Orange</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+        <option value="Purple">Purple</option>
+        <option value="Pink">Pink</option>
+        <option value="Brown">Brown</option>
+        <option value="Gray">Gray</option>
+    </select>
+</div>
 
-  <div class="question">
+<div class="question">
     <p class="p1">Which device did you first click? "<i>Learn more</i>" for?</p>
     <select id="appleHomePageServices" class="dropdown">
-      <option value="initVal" selected>Choose a product</option>
-      <option value="iPhone15pro">iPhone 15 Pro</option>
-      <option value="iPhone15">iPhone 15</option>
-      <option value="iPad">iPad</option>
-      <option value="appleWatch">Apple Watch SE</option>
-      <option value="appleWatchS9">Apple Watch Series 9</option>
-      <option value="MacBookPro">MacBook Pro</option>
-      <option value="AirPodsPro">AirPods Pro</option>
-      <option value="appleFitness">Apple Fitness+</option>
-      <option value="noProduct">None</option>
+        <option value="initVal" selected>Choose a product</option>
+        <option value="iPhone15pro">iPhone 15 Pro</option>
+        <option value="iPhone15">iPhone 15</option>
+        <option value="iPad">iPad</option>
+        <option value="appleWatch">Apple Watch SE</option>
+        <option value="appleWatchS9">Apple Watch Series 9</option>
+        <option value="MacBookPro">MacBook Pro</option>
+        <option value="AirPodsPro">AirPods Pro</option>
+        <option value="appleFitness">Apple Fitness+</option>
+        <option value="noProduct">None</option>
     </select>
-  </div>
-  
-  <div class="question">
+</div>
+
+<div class="question">
     <p class="p1">Is it more convenient to purchase products from the website or stores?</p>
     <input type="radio" name="purchaseLocation" id="convinienceWebsite" value="Website">
     <label for="convinienceWebsite" class="p4">Website</label>
     <input type="radio" name="purchaseLocation" id="convinienceStore" value="Store">
     <label for="convinienceStore" class="p4">Store</label>
     <input type="radio" name="purchaseLocation" id="convinienceNoPref" value="No preference">
-    <label for="convinienceNoPref" class="p4">No preference</label>  
-  </div>
+    <label for="convinienceNoPref" class="p4">No preference</label>
+</div>
 
-  <form action="/action_page.php">
+<form action="/action_page.php">
     <div class="question">
-      <label for="qE1" class="p1">Does the text convey all the information you require? </label><br><br>
-      <input type="text" id="qE1" name="qE1"><br><br>
+        <label for="qE1" class="p1">Does the text convey all the information you require? </label><br><br>
+        <input type="text" id="qE1" name="qE1"><br><br>
     </div>
 
     <div class="question">
-      <label for="qE2" class="p1">Do you have any comments or suggestions regarding the site? </label><br><br>
-      <input type="text" id="qE2" name="qE2"><br><br>
+        <label for="qE2" class="p1">Do you have any comments or suggestions regarding the site? </label><br><br>
+        <input type="text" id="qE2" name="qE2"><br><br>
     </div>
-  </form>
+</form>
 
-  <div class = "Submit">
+<div class = "Submit">
     <input type="submit" class="SubmitButton">
-  </div>
+</div>
 
-  <p class="p1" style="font-style: italic">Website designed by Vosgan Arzoumanian, Erika Hanner, Cedric Naud and Ines Mansouri</p>
+<p class="p1" style="font-style: italic">Website designed by Vosgan Arzoumanian, Erika Hanner, Cedric Naud and Ines Mansouri</p>
 </body>
 </html>
